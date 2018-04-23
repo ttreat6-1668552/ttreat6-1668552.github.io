@@ -1,0 +1,84 @@
+body{
+    background-image: url('blackmap.png');
+ }
+
+ p{
+    font-weight: bold; color: rgb(133, 133, 133); font-family: "Arial";
+}
+#Header{
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px rgb(133, 133, 133);
+}
+#Header h1{
+    font-size: 60px; font-family: "Impact"; color: rgb(133, 133, 133); font-weight: bold; 
+}
+
+#LeftNav1{
+    float: left;
+    position:absolute;
+    top:100px;
+    left:20px;
+    padding-bottom: 8px;
+}
+
+#RightNav1{
+    float: Right;
+    position:absolute;
+    top:100px;
+    right:20px;
+    padding-bottom: 8px;
+}
+
+#LeftNav2{
+    float: left;
+    position:absolute;
+    top:500px;
+    left:20px;
+    padding-bottom: 8px;
+}
+
+#RightNav2{
+    float: Right;
+    position:absolute;
+    top:500px;
+    right:20px;
+    padding-bottom: 8px;
+}
+
+#Content{ 
+    padding: 15px;
+    width: 660px;
+    text-align: center;
+    position:absolute;
+    top:250px;
+    right:288px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#Links{
+    text-align: center;
+    position:absolute;
+    top:220px;
+    right:500px; 
+    font-weight: bold; color: rgb(40, 147, 197); font-family: "Arial";
+}
+
+#Links ul{
+    padding: 2px;
+    font-size: 20px; font-weight: bold; color: rgb(40, 147, 197); font-family: "Arial";
+}
+
+#Links h3 {
+    position:absolute;
+    top:-30px;
+    right:235px;
+    padding: 2px;
+    border: solid 7px rgb(133, 133, 133);
+    
+}
